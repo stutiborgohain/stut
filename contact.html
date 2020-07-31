@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <center> <section class="contact" id="contact" style="margin-bottom: 10px;">
+        <div class="container">
+            <div class="section-heading">
+                <u><h1>Contact US</h1></u>
+               
+            </div>
+            <form action="thanks.html">
+                <fieldset style="padding:9px;"><legend><h2>basci information</h2></legend>
+                    <label for="name">TITLE </label>
+                    <select name="service" id="service">
+                        <option value="">MISS.</option>
+                        <option value="">MRS.</option>
+                        <option value="">MR.</option>
+                        <option value="">MS.</option> 
+        
+                    </select>
+                <label for="name">FIRST NAME </label><input type="text" id="name" name="name" placeholder=" first name"  required>
+                <label for="name">LAST NAME</label><input type="text" id="name" name="name" placeholder="last name"  required>
+                <label for="email">EMAIL</label><input type="email" id="email" name="email" placeholder="enter your email" required>
+                <label for="phone">PHONE NUMBER</label><input type="number" id="number" name="number" placeholder="enter your phone number" required>
+            </fieldset>
+            <fieldset  style="padding:9px;"><legend><h2>schedule the call</h2></legend>
+                <label for="service">REASON FOR CONTACT</label>
+                <select name="service" id="service">
+                    <option value="">CONTACT FOR BOOKING</option>
+                    <option value="">WORK TOGETHER</option>
+                    <option value="">FEEBDACK</option> 
+    
+                </select>
+                <label for="phone">TIME TO SCHDULE THE CALL</label><input type="time" id="time" name="time" placeholder="" required>
+
+                <label for="subject">DETAILS</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea><BR><BR>
+                <label>CONTACT US THROUGH</label><BR><BR>
+                <a href="" class="fa fa-envelope" style="font-size:48px;color:red"></a>
+                <a href="" class="fa fa-phone" style="font-size:48px;color:red;margin-left: 40px;"></a><BR><BR>
+                </fieldset>
+                <input style="margin-top: 7px;" type="submit" value="submit">
+                
+            </form>
+            </div>
+            </section>
+            
+            </center>
+    <script src="contact.js"></script>
+</body>
+</html>
